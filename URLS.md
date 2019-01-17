@@ -16,9 +16,9 @@ OJS supports such configurations when the journal's base url is a "subdomain" of
 
 ## OJS URLs
 ### Non-RESTful (default)
-https://journals-dev.library.columbia.edu/index.php/btpp
+`https://journals.library.columbia.edu/index.php/popular_science`
 ### RESTful
-https://journals-dev.library.columbia.edu/btpp
+`https://journals.library.columbia.edu/popular_science`
 
 RESTful URLs require an NGINX rewrite rule along the lines of:
 > location ~ ^/(?!index.php) {
